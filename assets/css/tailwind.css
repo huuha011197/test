@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap&family=Playfair+Display&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white font-montserrat;
+  }
+  section {
+    @apply py-20;
+  }
+}
+
+@layer components {
+  .badge {
+    @apply text-sm uppercase text-dark px-3 py-1 rounded-lg border  border-white/10 inline-flex bg-gradient-to-b  from-white/10 to-transparent;
+  }
+  .btn-primary {
+    @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-indigo-400  to-primary text-dark;
+  }
+  .btn-dark {
+    @apply text-sm px-6 py-3 rounded-lg bg-gradient-to-b from-black/90  to-[#1C1C22] text-dark border border-white/10;
+  }
+  .service-card {
+    @apply flex flex-col pl-[8px] pr-[18px] md:px-[32px]  py-[11px] md:py-[40px] border rounded-[20px] aspect-[164/268] md:aspect-[410/560] relative flex items-center justify-end p-10 bg-no-repeat bg-cover;
+  }
+}
+
+@layer utilities {
+  .section-title {
+    @apply max-w-2xl text-[40px] md:text-6xl font-playfair text-dark font-black mt-4 !leading-snug;
+  }
+  .paragraph {
+    @apply text-dark leading-relaxed tracking-wide;
+  }
+  .animate-pause {
+    animation-play-state: paused;
+  }
+}
+
+.mesh-gradient {
+}
+.animate-fade {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.6s ease;
+}
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+.banner-clip-path {
+  /* This value needs to be carefully crafted, often with a clip-path generator or design tool */
+  clip-path: ellipse(
+    50% 100% at 50% 100%
+  ); /* Example: a simple bottom ellipse */
+  /* For the actual image, you might need something like: */
+  /* clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%); */
+  /* Or even a more complex path if the top also has a slight curve */
+}
+
+/* If you have a specific bottom curve that's complex */
+.bottom-white-curve-clip {
+  clip-path: ellipse(
+    120% 60% at 50% 100%
+  ); /* Example for a wide, flat ellipse at the bottom */
+}

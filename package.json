@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "author": "tamphan",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "1.10.0",
+    "@nuxtjs/google-fonts": "3.2.0",
+    "@nuxtjs/i18n": "^10.0.3",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@studio-freight/lenis": "^1.0.42",
+    "gsap": "^3.13.0",
+    "nuxt": "^3.15.4",
+    "vue": "latest",
+    "vue-iconsax": "^2.0.0",
+    "vue-router": "latest",
+    "vue3-carousel": "^0.16.0"
+  },
+  "devDependencies": {
+    "@types/locomotive-scroll": "^4.1.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}
