@@ -178,7 +178,7 @@ onUnmounted(() => {
 }
 
 .countdown-wizard-image {
- @apply absolute bottom-[-250px] left-[20%] md:top-10 md:left-0 object-contain;
+ @apply absolute bottom-[-200px] left-[20%] md:top-10 md:left-0 object-contain;
 }
 </style>
 

@@ -58,7 +58,7 @@ const servicesData = tm('service.services') as ServiceList;
 }
 
 .service-header__headline {
-  @apply  font-playfair text-dark font-black text-center;
+  @apply text-[40px] md:text-6xl font-playfair text-dark font-black text-center;
 }
 
 .service-header__subline {
@@ -74,7 +74,7 @@ const servicesData = tm('service.services') as ServiceList;
 }
 
 .service-card--offset {
-  @apply -translate-y-[-71px] md:-translate-y-[-88px];
+  @apply -translate-y-[-31px] md:-translate-y-[-88px];
 }
 
 .service-card__content {

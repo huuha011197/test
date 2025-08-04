@@ -77,7 +77,7 @@ const images = Array.from({ length: 5 }, (_, index) => ({
 
 <style scoped>
 .image-gallery-wrapper {
-  @apply items-center flex-col rounded-3xl bg-[#F6F6F6];
+  @apply mt-[40px] md:mt-[40px] items-center flex-col rounded-3xl bg-[#F6F6F6];
 }
 
 .image-gallery-content {
