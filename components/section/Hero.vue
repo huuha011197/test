@@ -51,7 +51,7 @@ onUnmounted(() => {
 </script>
 
 <template>
- <div class="countdown-section-container">
+ <section class="countdown-section-container">
   <div class="countdown-background-wrapper">
    <div class="countdown-overlay"></div>
 
@@ -105,12 +105,12 @@ onUnmounted(() => {
   </div>
   <img src="/images/ong tien 1.png" width="938px" height="938px" :alt="t('countdown.wizard_alt')"
    class="countdown-wizard-image">
- </div>
+ </section>
 </template>
 
 <style scoped>
 .countdown-section-container {
- @apply relative mb-[200px];
+ @apply relative;
 }
 
 .countdown-background-wrapper {

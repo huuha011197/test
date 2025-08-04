@@ -58,7 +58,7 @@ const servicesData = tm('service.services') as ServiceList;
 }
 
 .service-header__headline {
-  @apply text-[40px] md:text-6xl font-playfair text-dark font-black text-center;
+  @apply  font-playfair text-dark font-black text-center;
 }
 
 .service-header__subline {

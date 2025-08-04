@@ -50,7 +50,6 @@ const config = {
 
 <style scoped>
 .image-gallery-section {
-  @apply mt-[30px];
 }
 
 .image-gallery-wrapper {
@@ -63,7 +62,7 @@ const config = {
 
 .image-gallery-title {
 
-  @apply text-center;
+  @apply text-center mt-[109px] mb-[69px];
 }
 
 .image-gallery-carousel {

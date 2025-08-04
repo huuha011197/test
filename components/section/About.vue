@@ -68,7 +68,7 @@ const section = tm("about.section") as SectionData;
 <style scoped>
 /* Main Section & Grid */
 .about-section {
-  @apply mt-[30px] container;
+  @apply container;
 }
 
 .about-grid {

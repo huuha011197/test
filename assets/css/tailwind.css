@@ -9,7 +9,7 @@
     @apply bg-white font-montserrat;
   }
   section {
-    @apply py-20;
+    @apply pb-[129px];
   }
 }
 
@@ -30,7 +30,7 @@
 
 @layer utilities {
   .section-title {
-    @apply max-w-2xl text-[40px] md:text-6xl font-playfair text-dark font-black mt-4 !leading-snug;
+    @apply text-[40px] md:text-6xl font-playfair text-dark font-black mt-4 !leading-snug;
   }
   .paragraph {
     @apply text-dark leading-relaxed tracking-wide;
