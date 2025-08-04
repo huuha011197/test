@@ -9,7 +9,7 @@
     @apply bg-white font-montserrat;
   }
   section {
-    @apply pb-[129px];
+    @apply pb-[48px] md:pb-[129px];
   }
 }
 
@@ -61,20 +61,4 @@ html.lenis {
 }
 .lenis.lenis-scrolling iframe {
   pointer-events: none;
-}
-.banner-clip-path {
-  /* This value needs to be carefully crafted, often with a clip-path generator or design tool */
-  clip-path: ellipse(
-    50% 100% at 50% 100%
-  ); /* Example: a simple bottom ellipse */
-  /* For the actual image, you might need something like: */
-  /* clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%); */
-  /* Or even a more complex path if the top also has a slight curve */
-}
-
-/* If you have a specific bottom curve that's complex */
-.bottom-white-curve-clip {
-  clip-path: ellipse(
-    120% 60% at 50% 100%
-  ); /* Example for a wide, flat ellipse at the bottom */
 }
