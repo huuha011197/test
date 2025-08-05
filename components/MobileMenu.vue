@@ -18,7 +18,7 @@
             </div>
 
             <nav class="mobile-menu-nav">
-                <NuxtLink v-for="link in nav" :to="rt(link.url)" class="item">
+                <NuxtLink @click="onClose" v-for="link in nav" :to="rt(link.url)" class="item">
                     {{ rt(link.label) }}</NuxtLink>
             </nav>
         </div>
